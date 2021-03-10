@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tag_accessibility_heading"
+        android:layout_marginTop="100dp"
+        android:text="@string/user_details"
+        android:textColor="@color/colorAccent"
+        android:textSize="40sp"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:text="@string/userName"
+    android:textColor="@color/colorAccent"
+    android:id="@+id/nametext"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+           android:layout_toRightOf="@+id/nametext"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/name"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/nametext" />
+
+</RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userEmail"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/Emailtext"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/Email"
+            android:layout_toRightOf="@+id/Emailtext"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Email"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/Emailtext" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userCompany"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/companytext"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/company"
+            android:layout_toRightOf="@+id/companytext"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/company"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/companytext" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userPhone"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/phonetext"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/Phone"
+            android:layout_toRightOf="@+id/phonetext"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/phone"
+            android:layout_toEndOf="@+id/phonetext"
+            android:layout_marginStart="40dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userWebsite"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/webtext"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/Website"
+            android:layout_toRightOf="@+id/webtext"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/web"
+            android:layout_toEndOf="@+id/webtext"
+            android:layout_marginStart="40dp" />
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

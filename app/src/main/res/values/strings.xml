@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SolveFoundation</string>
+    <string name="address">address</string>
+    <string name="company">company</string>
+    <string name="Phone">phone</string>
+    <string name="Email">Email</string>
+    <string name="Website">Website</string>
+    <string name="userName">userName</string>
+    <string name="userEmail">userEmail</string>
+    <string name="userCompany">userCompany]</string>
+    <string name="userPhone">userPhone</string>
+    <string name="user_details">User Details</string>
+    <string name="userWebsite">userWebsite</string>
+</resources>
